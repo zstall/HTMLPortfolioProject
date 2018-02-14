@@ -47,16 +47,24 @@ header {
 	background: url(images/backgound/header.jpg) center no-repeat;
 }
 
-.tagline {
+.tagline, .skills{
 	margin: 5px auto 20px auto;
 	width: 700px;
 }
 
-.tagline p {
+.tagline p, .skills p {
 	text-align: center;
+	padding: 5px;
 }
 
-.tagline h3 {
+.tagline h3, .skills h3 {
 	border-bottom: 1px solid black;
 }
 
+.skills ul {
+	list-style-type: none;
+}
+
+#languages li {
+	display: inline;
+}

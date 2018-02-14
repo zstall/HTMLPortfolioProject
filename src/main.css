@@ -55,9 +55,11 @@ header {
 .tagline p, .skills p, footer p {
 	text-align: center;
 	padding: 5px;
+	margin-bottom: 5px;
 }
 
 .tagline h3, .skills h3 {
+	margin-top: 20px;
 	border-bottom: 1px solid black;
 }
 
@@ -66,12 +68,13 @@ header {
 }
 
 #languages li {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: bold;
+	background-color: #444444;
+	color: #cccccc;
 	display: inline;
-	border: 1px solid black;
-	padding: 2px;
-	width: 700px;
-	text-align: center;
-
+	padding: 4px 4px 4px 4px;
+	margin-right: 10px;
 }
 
 #pcbuilds li {
@@ -80,7 +83,6 @@ header {
 	margin: 20px auto 20px auto;
 	padding: 10px;
 	background: radial-gradient(ellipse at top left, aqua, #0049c3);
-	
 }
 
 #pcbuilds img {

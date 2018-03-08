@@ -8,12 +8,12 @@ html, body, h1, h2, h3, h4, p, div, ul, ol, li {
 	border: 0;
 	margin: 0;
 	font: inherit;
-	font-size: 100%;
+	font-size: 10px;
 }
 
 h1 {
 	font-family: Lato, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 60px;
+	font-size: 6em; /* 60px/10px */
 	font-weight: bold;
 	text-align: center;
 	color: #ffffff;
@@ -21,7 +21,7 @@ h1 {
 
 h2 {
 	font-family: Lato, "Helvetica Neue", Helcetica, sans-serif;
-	font-size: 25px;
+	font-size: 2.5em; /* 25px/10px */
 	font-weight: bold;
 	text-align: center;
 	color: #ffffff;
@@ -29,7 +29,7 @@ h2 {
 
 h3 {
 	font-family: Lato, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 18px;
+	font-size: 1.8em; /* 18px/10px */
 	font-weight: 200;
 	text-align: center;
 	color: #000000;
@@ -37,28 +37,28 @@ h3 {
 
 p {
 	font-family: Lato, "Helvetica Neue", Helvetica, sans-srif;
-	font-size: 14px;
+	font-size: 1.4em; /* 14px/10px */
 	font-weight: 100;
 }
 
 header {
 	box-sizing: border-box;
 	border: 2px solid black;
-	margin: 20px auto 20px auto;
-	padding: 50px;
-	width: 700px;
+	margin: 0.5% auto 0.5% auto;
+	padding: 0.25%;
+	width: 40%;
 	background: url(images/backgound/header.jpg) center no-repeat;
 }
 
-.tagline, .skills{
-	margin: 5px auto 20px auto;
-	width: 700px;
+.tagline, .skills {
+	margin: 0% auto 0% auto;
+	width: 40%;
 }
 
 .tagline p, .skills p, footer p {
 	text-align: center;
-	padding: 5px;
-	margin-bottom: 5px;
+	padding: 0.25%;
+	margin-bottom: 1.5%;
 }
 
 .tagline h3, .skills h3 {
@@ -81,30 +81,38 @@ header {
 }
 
 #pcbuilds li {
+	width: 100%;
 	box-sizing: border-box;
 	border: 2px solid black;
-	margin: 20px auto 20px auto;
-	padding: 10px;
+	margin: 2.5% auto 2.5% auto;
+	padding: .5%;
 	background: radial-gradient(ellipse at top left, aqua, #0049c3);
 }
 
-#pcbuilds img {
+#pcbuilds li img {
+	/*
 	box-sizing: border-box;
-	padding: 17px;
+	*/
+	display: inline;
+	margin: 0, auto;
+	/*
+	padding: 2.0% 4% 2.0% 4.5%;
+	*/
 }
 
 #badges img {
 	float: left;
-	padding-right: 10px;
+	padding-right: 2.0%;
 }
 
 #badges p {
 	text-align: left;
 	padding: 0;
+	margin: 0;
 }
 
 #badges li {
-	padding-bottom: 15px;
+	padding-bottom: 6.0%;
 }
 /*
 footer {
